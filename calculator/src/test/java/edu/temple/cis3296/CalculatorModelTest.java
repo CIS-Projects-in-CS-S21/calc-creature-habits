@@ -19,6 +19,13 @@ public class CalculatorModelTest {
 		assertEquals(4.0, calc.operationAdd(2.0, 2.0), 0.1);
 	}
 
+
+	@Test
+	public void shouldAddTwoPlusThree(){
+		assertEquals(5.0, calc.operationAdd(2.0, 3.0), 0.1);
+	}
+
+
 	@Test
 	public void shouldSubstTwoAndTwo(){
 		assertEquals(0.0, calc.operationSubst(2.0, 2.0), 0.1);
