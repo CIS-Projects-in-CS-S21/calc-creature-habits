@@ -33,9 +33,11 @@ public class CalculatorViewGui extends JFrame implements CalculatorView{
 	
 	/**
 	 * Creates the panels and components for the JFrame
+	 * 
+	 * Changed name of window to "Capstone Calculator" 
 	 */
 	public CalculatorViewGui() {
-		super("Simple Calculator");
+		super("Capstone Calculator");
 		
 		// create the menu
 		
